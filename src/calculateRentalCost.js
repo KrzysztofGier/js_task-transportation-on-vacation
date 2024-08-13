@@ -3,7 +3,7 @@
  *
  * @return {number}
  */
-  function calculateRentalCost(days) {
+function calculateRentalCost(days) {
   let result = days * 40;
 
   if (days >= 7) {
